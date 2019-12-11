@@ -1,4 +1,22 @@
 * {
     padding: 0px;
     margin: 0px;
+
+}
+
+div.flex-container {
+    display: flex;
+    align-items: flex-end;
+    height: 120px;
+}
+
+img {
+    height: 110px;
+    border-radius: 50%;
+}
+
+h1.title {
+    text-align: right;
+    font-weight: normal;
+    padding: 3%;
 }
