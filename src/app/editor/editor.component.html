@@ -1,30 +1,31 @@
-
-
-<ng-container class="page"> 
-    <!-- Horizontal Navigation -->
-    <nav class="horizontal">
-        <a href="#"> Honey </a>
-        <a href="#"> Cattle </a>
-    </nav>
-    <!-- Page Content -->
-    <div class="content"> 
-
-        <!-- Vertical Navigation -->
-        <nav class="vertical col1">
-            <ul> 
-                <li><a href="#"> Vertical Nav</a></li>
-                <li><a href="#"> Honey </a></li>
-                <li><a href="#"> Cattle </a></li>
-            </ul>
-        </nav>
-
-        <!-- Column 1 -->
-        <div class="col2"> 
-            <img src="assets/cow.jpg"> 
-        </div>
-        <!-- Column 2 -->
-        <div class="col3"> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac velit eget quam porttitor iaculis eu id enim. Ut volutpat dapibus leo, vel efficitur lectus egestas quis. Nunc imperdiet tristique velit et tincidunt. Nunc tempus rhoncus facilisis. Fusce a ullamcorper turpis. Suspendisse hendrerit suscipit est, at venenatis urna laoreet eget. Etiam ultricies tellus dolor, at egestas mi mattis ac. Donec ac velit tortor. In quis convallis neque, non tristique neque. Aenean varius eleifend pellentesque. </p>
-        </div>
+<div class="row"> 
+    <div class="title"> 
+        <input type="text" class="name" value="Honey"/>
+        <hr />
     </div>
-</ng-container>
+</div>
+<div class="row ">
+    <div class="column picture">
+        <img src="assets/honey.jpg"/> 
+    </div>
+
+    <div class="column details">
+        <div class="desc">
+            <h3> Product Description </h3>
+            <hr />
+            <textarea class="desc" >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+            </textarea>
+        </div>
+        <input type="number" name="quantity" min="1" max="10">
+
+        <select> 
+            <option value="24"> 24 oz</option>
+            <option value="48"> 48 oz</option>
+            <option value="gal"> 1 gal</option>
+        </select>>
+
+        <button> Add to Cart </button>
+    </div>
+</div>
+

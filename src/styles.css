@@ -1,8 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Color Palette */
+/*
+    Logo Colors: 
+        Brown: #77503f;
+        Dark Brown Red: #6d2926;
+        Medium Red: #a64031;
+        Orange: #d65f37;
+        Yellow: #f5ad35;
+
+*/
+
+
 * {
     background-color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, Arial, Helvetica, sans-serif;
 }
 

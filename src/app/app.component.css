@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    /* background-color: #77503f; */
 
 }
 
@@ -8,15 +9,48 @@ div.flex-container {
     display: flex;
     align-items: flex-end;
     height: 120px;
+    /* background-color: #77503f; */
+
 }
+
 
 img {
     height: 110px;
     border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    padding: 2px;
 }
 
 h1.title {
     text-align: right;
     font-weight: normal;
     padding: 3%;
+}
+
+ul {
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+.navbar {
+    background-color: white;
 }
